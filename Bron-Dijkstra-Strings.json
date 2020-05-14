@@ -1,1 +1,16 @@
-{"path" : "https://github.com/norayr/Bron-Dijkstra-Strings"}
+{
+  "Package": "Bron-Dijkstra-Strings",
+  "Author":  "nc",
+  "License": "GPL-3",
+  "Version": "0.1",
+  "Remote":
+    {
+    "type": "git",
+    "path": "https://github.com/norayr/Bron-Dijkstra-Strings",
+    "tag" : "0.1",
+    },
+  "Dependencies":
+  {
+   
+  }
+}
