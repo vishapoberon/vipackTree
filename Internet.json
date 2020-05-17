@@ -8,9 +8,5 @@
     "type": "git",
     "path": "https://github.com/norayr/Internet",
     "tag" : "0.1",
-    },
-  "Dependencies":
-  {
-
-  }
+    }
 }

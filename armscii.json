@@ -8,9 +8,5 @@
     "type": "git",
     "path": "https://github.com/norayr/armscii",
     "tag" : "0.1",
-    },
-  "Dependencies":
-  {
-
-  }
+    }
 }

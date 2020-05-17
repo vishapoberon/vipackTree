@@ -8,9 +8,5 @@
     "type": "git",
     "path": "https://github.com/norayr/Bron-Dijkstra-Strings",
     "tag" : "0.1",
-    },
-  "Dependencies":
-  {
-   
-  }
+    }
 }
