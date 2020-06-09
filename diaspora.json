@@ -7,7 +7,7 @@
     {
     "type": "git",
     "path": "https://github.com/norayr/diaspora",
-    "tag" : "0.1",
+    "tag" : "0.1"
     },
   "Dependencies":
   {
