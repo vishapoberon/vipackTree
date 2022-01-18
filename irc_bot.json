@@ -11,11 +11,11 @@
     },
   "Dependencies":
   {
+    "opts": "0.1",
     "lists":    "0.1",
     "Internet": "0.1",
     "time":     "0.1",
-    "irc":      "0.1",
-    "opts":     "0.1"
+    "irc":      "0.1"
   },
   "Build":
   {
