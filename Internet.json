@@ -1,6 +1,6 @@
 {
   "Package": "Internet",
-  "Author":  "nc",
+  "Author":  "noch",
   "License": "GPL-3",
   "Version": "0.1",
   "Remote":
@@ -8,5 +8,20 @@
     "type": "git",
     "path": "https://github.com/norayr/Internet",
     "tag" : "0.1"
-    }
+    },
+  "Dependencies":
+    {
+    "time": "0.1"
+    },
+   "Build":
+   {
+     "voc -s": "src/netTypes.Mod",
+     "voc -s": "src/netdb.Mod",
+     "voc -s": "src/netSockets.Mod",
+     "voc -s": "src/Internet.Mod",
+     "voc -s": "src/netForker.Mod",
+     "voc -s": "src/server.Mod",
+     "voc -m": "tst/testClient.Mod",
+     "voc -m": "tst/testServer.Mod"
+   }
 }

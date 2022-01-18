@@ -1,6 +1,6 @@
 {
   "Package": "diaspora",
-  "Author":  "nc",
+  "Author":  "noch",
   "License": "GPL-3",
   "Version": "0.1",
   "Remote":
@@ -13,5 +13,10 @@
   {
     "lists": "0.1",
     "postgres": "0.1"
+  },
+  "Build":
+  {
+    "voc -s": "src/diasporadb.Mod",
+    "voc -s": "src/diasporaPost.Mod"
   }
 }

@@ -1,6 +1,6 @@
 {
   "Package": "postgres",
-  "Author":  "nc",
+  "Author":  "noch",
   "License": "GPL-3",
   "Version": "0.1",
   "Remote":
@@ -8,5 +8,14 @@
     "type": "git",
     "path": "https://github.com/norayr/postgres",
     "tag" : "0.1"
-    }
+    },
+   "Dependencies":
+   {
+     "pipes": "0.1"
+   },
+   "Build":
+   {
+    "voc -s": "postgres.Mod",
+    "voc -m": "PostgresTests.Mod"
+   }
 }
