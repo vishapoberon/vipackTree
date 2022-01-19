@@ -6,7 +6,7 @@
   "Remote":
     {
     "type": "git",
-    "path": "https://github.com/norayr/irc",
+    "path": "https://github.com/norayr/irc_bot",
     "tag" : "0.1"
     },
   "Dependencies":
