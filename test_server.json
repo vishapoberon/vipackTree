@@ -1,12 +1,12 @@
 {
-  "Package": "irc_bot",
+  "Package": "test_server",
   "Author":  "noch",
   "License": "GPL-3",
   "Version": "0.1",
   "Remote":
     {
     "type": "git",
-    "path": "https://github.com/norayr/irc_bot",
+    "path": "https://github.com/norayr/test_server",
     "tag" : "0.1"
     },
   "Dependencies":

@@ -1,5 +1,5 @@
 {
-  "Package": "time",
+  "Package": "fifo",
   "Author":  "noch",
   "License": "GPL-3",
   "Version": "0.1",
