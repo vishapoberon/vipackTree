@@ -1,0 +1,18 @@
+{
+  "Package": "libucl",
+  "Author":  "antranigv",
+  "License": "BSD",
+  "Version": "0.1",
+  "Remote":
+    {
+    "type": "git",
+    "path": "https://github.com/antranigv/voclibucl",
+    "tag" : "0.1"
+    },
+   "Build":
+   {
+     "voc -s": "src/ucl.Mod",
+     "CFLAGS=-lucl voc -m": "test/libucl_test.Mod",
+     "cp": "test/example.ucl .",
+   }
+}
