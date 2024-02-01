@@ -14,8 +14,8 @@
      "pipes": "0.1"
    },
    "Build":
-   {
-    "voc -s": "postgres.Mod",
-    "voc -m": "PostgresTests.Mod"
-   }
+   [
+    {"command": "voc -s", "file": "postgres.Mod"},
+    {"command": "voc -m", "file": "PostgresTests.Mod"}
+   ]
 }

@@ -10,8 +10,8 @@
     "tag" : "0.1"
     },
    "Build":
-   {
-     "voc -s": "src/xo.Mod",
-     "CFLAGS=-lxo voc -m": "test/libxo_test.Mod",
-   }
+   [
+     {"command": "voc -s", "file": "src/xo.Mod"},
+     {"command": "CFLAGS=-lxo voc -m", "file": "test/libxo_test.Mod"}
+   ]
 }

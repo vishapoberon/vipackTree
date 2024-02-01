@@ -14,7 +14,7 @@
     "time": "0.1"
   },
   "Build":
-  {
-     "voc -s": "src/skprLogger.Mod"
-  }
+  [
+     {"command": "voc -s", "file": "src/skprLogger.Mod"}
+  ]
 }

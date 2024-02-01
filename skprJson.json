@@ -15,8 +15,8 @@
     "skprLogger": "0.1"
   },
   "Build":
-  {
-     "voc -s": "src/skprCharStack.Mod",
-     "voc -s": "src/skprJson.Mod"
-  }
+  [
+     {"command": "voc -s", "file": "src/skprCharStack.Mod"},
+     {"command": "voc -s", "file": "src/skprJson.Mod"}
+  ]
 }

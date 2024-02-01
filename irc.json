@@ -13,10 +13,11 @@
   {
     "time": "0.1",
     "Internet": "0.1",
-    "lists": "0.1"
+    "lists": "0.1",
+    "dbg": "0.1"
   },
   "Build":
-  {
-     "voc -s": "src/IRC.Mod"
-  }
+  [
+     {"command": "voc -s", "file": "src/IRC.Mod"}
+  ]
 }

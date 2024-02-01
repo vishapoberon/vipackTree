@@ -10,7 +10,7 @@
     "tag" : "0.1"
     },
   "Build":
-  {
-    "voc -s": "src/fifo.Mod"
-  }
+  [
+    {"command": "voc -s", "file": "src/fifo.Mod"}
+  ]
 }

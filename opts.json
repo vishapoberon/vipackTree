@@ -14,9 +14,9 @@
     "lists": "0.1"
   },
   "Build":
-  {
-     "voc -s": "src/optsos.Mod",
-     "voc -s": "src/opts.Mod",
-     "voc -m": "src/testopts.Mod"
-  }
+  [
+     {"command": "voc -s", "file": "src/optsos.Mod"},
+     {"command": "voc -s", "file": "src/opts.Mod"},
+     {"command": "voc -m", "file": "src/testopts.Mod"}
+  ]
 }

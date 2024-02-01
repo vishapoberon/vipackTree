@@ -10,12 +10,12 @@
     "tag" : "0.1"
     },
   "Build":
-    {
-     "voc -s": "src/DynamicArray.Mod"
-     "voc -s": "src/HashMap.Mod",
-     "voc -s": "src/Map.Mod",
-     "voc -m": "test/DynamicArrayTest.Mod",
-     "voc -m": "test/HashMapTest.Mod",
-     "voc -m": "test/MapTest.Mod",
-    }
+    [
+     {"command": "voc -s", "file": "src/DynamicArray.Mod"},
+     {"command": "voc -s", "file": "src/HashMap.Mod"},
+     {"command": "voc -s", "file": "src/Map.Mod"},
+     {"command": "voc -m", "file": "test/DynamicArrayTest.Mod"},
+     {"command": "voc -m", "file": "test/HashMapTest.Mod"},
+     {"command": "voc -m", "file":  "test/MapTest.Mod"}
+    ]
 }

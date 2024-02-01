@@ -10,7 +10,7 @@
     "tag" : "0.1"
     },
     "Build":
-    {
-      "voc -s": "ArmsciiUTF.Mod"
-    }
+    [
+      {"command": "voc -s", "file": "ArmsciiUTF.Mod"}
+    ]
 }

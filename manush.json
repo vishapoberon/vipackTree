@@ -18,15 +18,15 @@
     "skprJson": "0.1"
   },
   "Build":
-  {
-    "voc -s": "src/mnshList.Mod",
-    "voc -s": "src/mnshUnix.Mod",
-    "voc -s": "src/mnshDefs.Mod",
-    "voc -s": "src/mnshCrt.Mod",
-    "voc -s": "src/mnshStorage.Mod",
-    "voc -s": "src/mnshExtTools.Mod",
-    "voc -s": "src/mnshTerm.Mod",
-    "voc -s": "src/mnshInput.Mod",
-    "voc -M": "src/manush.Mod"
-  }
+  [
+    {"command": "voc -s", "file": "src/mnshList.Mod"},
+    {"command": "voc -s", "file": "src/mnshUnix.Mod"},
+    {"command": "voc -s", "file": "src/mnshDefs.Mod"},
+    {"command": "voc -s", "file": "src/mnshCrt.Mod"},
+    {"command": "voc -s", "file": "src/mnshStorage.Mod"},
+    {"command": "voc -s", "file": "src/mnshExtTools.Mod"},
+    {"command": "voc -s", "file": "src/mnshTerm.Mod"},
+    {"command": "voc -s", "file": "src/mnshInput.Mod"},
+    {"command": "voc -M", "file": "src/manush.Mod"}
+  ]
 }

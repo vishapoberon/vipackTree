@@ -15,8 +15,8 @@
     "postgres": "0.1"
   },
   "Build":
-  {
-    "voc -s": "src/diasporadb.Mod",
-    "voc -s": "src/diasporaPost.Mod"
-  }
+  [
+    {"command": "voc -s", "file": "src/diasporadb.Mod"},
+    }"command": "voc -s", "file": "src/diasporaPost.Mod"}
+  ]
 }

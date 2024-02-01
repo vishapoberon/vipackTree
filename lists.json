@@ -14,9 +14,9 @@
     "strutils": "0.1"
   },
   "Build":
-    {
-     "voc -s": "src/List.Mod",
-     "voc -s": "src/StringList.Mod",
-     "voc -m": "test/TestList.Mod",
-    }
+    [
+     {"command": "voc -s", "file": "src/List.Mod"},
+     {"command": "voc -s", "file": "src/StringList.Mod"},
+     {"command": "voc -m", "file": "test/testList.Mod"}
+    ]
 }

@@ -10,9 +10,9 @@
     "tag" : "0.1"
     },
    "Build":
-   {
-     "voc -s": "src/ucl.Mod",
-     "CFLAGS=-lucl voc -m": "test/libucl_test.Mod",
-     "cp": "test/example.ucl .",
-   }
+   [
+     {"command": "voc -s", "file": "src/ucl.Mod"},
+     {"command": "CFLAGS=-lucl voc -m", "file": "test/libucl_test.Mod"},
+     {"command": "cp", "file": "test/example.ucl ."}
+   ]
 }

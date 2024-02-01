@@ -10,9 +10,9 @@
     "tag" : "0.1"
     },
   "Build":
-    {
-     "voc -s": "src/strTypes.Mod",
-     "voc -s": "src/strUtils.Mod",
-     "voc -m": "test/testStrUtils.Mod"
-    }
+    [
+     {"command": "voc -s", "file": "src/strTypes.Mod"},
+     {"command": "voc -s", "file": "src/strUtils.Mod"},
+     {"command": "voc -m", "file": "test/testStrUtils.Mod"}
+    ]
 }

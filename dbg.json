@@ -1,0 +1,20 @@
+{
+  "Package": "dbg",
+  "Author":  "noch",
+  "License": "GPL-3",
+  "Version": "0.1",
+  "Remote":
+    {
+    "type": "git",
+    "path": "https://github.com/norayr/dbg",
+    "tag" : "0.1"
+    },
+  "Dependencies":
+  {
+    "strutils": "0.1"
+  },
+  "Build":
+  [
+    {"command": "voc -s", "file": "src/dbg.Mod"}
+  ]
+}

@@ -10,7 +10,7 @@
     "tag" : "0.1"
     },
   "Build":
-  {
-    "voc -s": "src/time.Mod"
-  }
+  [
+    {"command": "voc -s", "file": "src/time.Mod"}
+  ]
 }

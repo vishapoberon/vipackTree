@@ -10,7 +10,7 @@
     "tag" : "0.1"
     },
    "Build":
-   {
-    "voc -s": "bdStrings.Mod"
-   }
+   [
+    {"command": "voc -s", "file": "bdStrings.Mod"}
+   ]
 }

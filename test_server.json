@@ -17,8 +17,8 @@
     "fifo": "0.1",
   },
   "Build":
-  {
-     "voc -m": "src/testServer.Mod"
-     "voc -m": "src/testClient.Mod"
-  }
+  [
+     {"command": "voc -m", "file": "src/testServer.Mod"},
+     {"command": "voc -m", "file": "src/testClient.Mod"}
+  ]
 }

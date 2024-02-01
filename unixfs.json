@@ -10,7 +10,7 @@
     "tag" : "0.1"
     },
   "Build":
-  {
-    "voc -s": "src/unixFiles.Mod"
-  }
+  [
+    {"command": "voc -s", "file": "src/unixFiles.Mod"}
+  ]
 }

@@ -13,15 +13,14 @@
     {
     "time": "0.1"
     },
-   "Build":
-   {
-     "voc -s": "src/netTypes.Mod",
-     "voc -s": "src/netdb.Mod",
-     "voc -s": "src/netSockets.Mod",
-     "voc -s": "src/Internet.Mod",
-     "voc -s": "src/netForker.Mod",
-     "voc -s": "src/server.Mod",
-     "voc -m": "tst/testClient.Mod",
-     "voc -m": "tst/testServer.Mod"
-   }
+   "Build": [
+     {"command": "voc -s", "file": "src/netTypes.Mod"},
+     {"command": "voc -s", "file": "src/netdb.Mod"},
+     {"command": "voc -s", "file": "src/netSockets.Mod"},
+     {"command": "voc -s", "file": "src/Internet.Mod"},
+     {"command": "voc -s", "file": "src/netForker.Mod"},
+     {"command": "voc -s", "file": "src/server.Mod"},
+     {"command": "voc -m", "file": "tst/testClient.Mod"},
+     {"command": "voc -m", "file": "tst/testServer.Mod"}
+   ]
 }

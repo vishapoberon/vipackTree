@@ -10,10 +10,10 @@
     "tag" : "0.1"
     },
   "Build":
-  {
-    "voc -s": "POutput.Mod",
-    "voc -s": "PErrors.Mod",
-    "voc -s": "PICS.Mod",
-    "voc -m": "PICL.Mod"
-  }
+  [
+    {"command": "voc -s", "file": "POutput.Mod"},
+    {"command": "voc -s", "file": "PErrors.Mod"},
+    {"command": "voc -s", "file": "PICS.Mod"},
+    {"command": "voc -m", "file": "PICL.Mod"}
+  ]
 }
