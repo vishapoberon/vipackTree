@@ -1,0 +1,28 @@
+{
+  "Package": "strutils2",
+  "Author":  "noch",
+  "License": "GPL-3",
+  "Version": "0.1",
+  "Remote": {
+      "Type": "https",
+      "Files": [
+           {
+             "URL": "https://norayr.am/vpk/strutils/src/strTypes.Mod",
+             "AuthType": "BasicAuth",
+             "AuthCredentials": {"User": "tactun", "Password": "tactun"},
+             "MD5": "3d3a2782bb5d244824fe2fe7bd214f74"
+           },
+        {
+           "URL": "https://norayr.am/vpk/strutils/src/strUtils.Mod",
+           "AuthType": "BasicAuth",
+           "AuthCredentials": {"User": "tactun", "Password": "tactun"},
+           "MD5": "a5ce6a7646506ddfadb9dc433caabe9e"
+        }
+      ]
+     },
+  "Build":
+    [
+     {"Command": "voc -s", "File": "strTypes.Mod"},
+     {"Command": "voc -s", "File": "strUtils.Mod"},
+    ]
+}
