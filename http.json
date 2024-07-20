@@ -1,0 +1,23 @@
+{
+  "Package": "http",
+  "Author":  "noch",
+  "License": "GPL-3",
+  "Version": "0.1",
+  "Remote":
+    {
+    "type": "git",
+    "path": "https://github.com/norayr/http",
+    "tag" : "0.1"
+    },
+  "Dependencies":
+  {
+    "strutils": "0.1",
+    "base64": "0.1",
+    "Internet": "0.1"
+  },
+  "Build":
+  [
+     {"command": "voc -s", "file": "src/hexIntStr.Mod"},
+     {"command": "voc -s", "file": "src/http.Mod"}
+  ]
+}
