@@ -17,6 +17,6 @@
   "Build":
   [
     {"command": "voc -s", "file": "src/diasporadb.Mod"},
-    }"command": "voc -s", "file": "src/diasporaPost.Mod"}
+    {"command": "voc -s", "file": "src/diasporaPost.Mod"}
   ]
 }
