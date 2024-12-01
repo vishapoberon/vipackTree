@@ -23,6 +23,6 @@
   "Build":
     [
      {"Command": "voc -s", "File": "strTypes.Mod"},
-     {"Command": "voc -s", "File": "strUtils.Mod"},
+     {"Command": "voc -s", "File": "strUtils.Mod"}
     ]
 }
